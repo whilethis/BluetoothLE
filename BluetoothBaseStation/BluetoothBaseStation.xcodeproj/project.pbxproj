@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA257D7C173486B3005C08F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA257D7B173486B3005C08F9 /* Cocoa.framework */; };
+		CA257D86173486B3005C08F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA257D84173486B3005C08F9 /* InfoPlist.strings */; };
+		CA257D88173486B3005C08F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA257D87173486B3005C08F9 /* main.m */; };
+		CA257D8C173486B3005C08F9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CA257D8A173486B3005C08F9 /* Credits.rtf */; };
+		CA257D8F173486B3005C08F9 /* BPXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA257D8E173486B3005C08F9 /* BPXLAppDelegate.m */; };
+		CA257D92173486B3005C08F9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA257D90173486B3005C08F9 /* MainMenu.xib */; };
+		CA257DCD17348CA6005C08F9 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA257DCC17348CA6005C08F9 /* IOBluetooth.framework */; };
+		CA257DD017349710005C08F9 /* BPXLBluetoothController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA257DCF17349710005C08F9 /* BPXLBluetoothController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA257D78173486B3005C08F9 /* BluetoothBaseStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothBaseStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA257D7B173486B3005C08F9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CA257D7E173486B3005C08F9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CA257D7F173486B3005C08F9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA257D80173486B3005C08F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA257D83173486B3005C08F9 /* BluetoothBaseStation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothBaseStation-Info.plist"; sourceTree = "<group>"; };
+		CA257D85173486B3005C08F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA257D87173486B3005C08F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA257D89173486B3005C08F9 /* BluetoothBaseStation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothBaseStation-Prefix.pch"; sourceTree = "<group>"; };
+		CA257D8B173486B3005C08F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CA257D8D173486B3005C08F9 /* BPXLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPXLAppDelegate.h; sourceTree = "<group>"; };
+		CA257D8E173486B3005C08F9 /* BPXLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPXLAppDelegate.m; sourceTree = "<group>"; };
+		CA257D91173486B3005C08F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CA257DCC17348CA6005C08F9 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		CA257DCE17349710005C08F9 /* BPXLBluetoothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPXLBluetoothController.h; sourceTree = "<group>"; };
+		CA257DCF17349710005C08F9 /* BPXLBluetoothController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPXLBluetoothController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA257D75173486B3005C08F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA257DCD17348CA6005C08F9 /* IOBluetooth.framework in Frameworks */,
+				CA257D7C173486B3005C08F9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA257D6F173486B3005C08F9 = {
+			isa = PBXGroup;
+			children = (
+				CA257D81173486B3005C08F9 /* BluetoothBaseStation */,
+				CA257D7A173486B3005C08F9 /* Frameworks */,
+				CA257D79173486B3005C08F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA257D79173486B3005C08F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA257D78173486B3005C08F9 /* BluetoothBaseStation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA257D7A173486B3005C08F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA257DCC17348CA6005C08F9 /* IOBluetooth.framework */,
+				CA257D7B173486B3005C08F9 /* Cocoa.framework */,
+				CA257D7D173486B3005C08F9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA257D7D173486B3005C08F9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA257D7E173486B3005C08F9 /* AppKit.framework */,
+				CA257D7F173486B3005C08F9 /* CoreData.framework */,
+				CA257D80173486B3005C08F9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CA257D81173486B3005C08F9 /* BluetoothBaseStation */ = {
+			isa = PBXGroup;
+			children = (
+				CA257D8D173486B3005C08F9 /* BPXLAppDelegate.h */,
+				CA257D8E173486B3005C08F9 /* BPXLAppDelegate.m */,
+				CA257D90173486B3005C08F9 /* MainMenu.xib */,
+				CA257D82173486B3005C08F9 /* Supporting Files */,
+				CA257DCE17349710005C08F9 /* BPXLBluetoothController.h */,
+				CA257DCF17349710005C08F9 /* BPXLBluetoothController.m */,
+			);
+			path = BluetoothBaseStation;
+			sourceTree = "<group>";
+		};
+		CA257D82173486B3005C08F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA257D83173486B3005C08F9 /* BluetoothBaseStation-Info.plist */,
+				CA257D84173486B3005C08F9 /* InfoPlist.strings */,
+				CA257D87173486B3005C08F9 /* main.m */,
+				CA257D89173486B3005C08F9 /* BluetoothBaseStation-Prefix.pch */,
+				CA257D8A173486B3005C08F9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA257D77173486B3005C08F9 /* BluetoothBaseStation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA257D95173486B3005C08F9 /* Build configuration list for PBXNativeTarget "BluetoothBaseStation" */;
+			buildPhases = (
+				CA257D74173486B3005C08F9 /* Sources */,
+				CA257D75173486B3005C08F9 /* Frameworks */,
+				CA257D76173486B3005C08F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothBaseStation;
+			productName = BluetoothBaseStation;
+			productReference = CA257D78173486B3005C08F9 /* BluetoothBaseStation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA257D70173486B3005C08F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BPXL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Black PIxel";
+			};
+			buildConfigurationList = CA257D73173486B3005C08F9 /* Build configuration list for PBXProject "BluetoothBaseStation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA257D6F173486B3005C08F9;
+			productRefGroup = CA257D79173486B3005C08F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA257D77173486B3005C08F9 /* BluetoothBaseStation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA257D76173486B3005C08F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA257D86173486B3005C08F9 /* InfoPlist.strings in Resources */,
+				CA257D8C173486B3005C08F9 /* Credits.rtf in Resources */,
+				CA257D92173486B3005C08F9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA257D74173486B3005C08F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA257D88173486B3005C08F9 /* main.m in Sources */,
+				CA257D8F173486B3005C08F9 /* BPXLAppDelegate.m in Sources */,
+				CA257DD017349710005C08F9 /* BPXLBluetoothController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA257D84173486B3005C08F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA257D85173486B3005C08F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA257D8A173486B3005C08F9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA257D8B173486B3005C08F9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CA257D90173486B3005C08F9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA257D91173486B3005C08F9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA257D93173486B3005C08F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA257D94173486B3005C08F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA257D96173486B3005C08F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothBaseStation/BluetoothBaseStation-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothBaseStation/BluetoothBaseStation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA257D97173486B3005C08F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothBaseStation/BluetoothBaseStation-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothBaseStation/BluetoothBaseStation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA257D73173486B3005C08F9 /* Build configuration list for PBXProject "BluetoothBaseStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA257D93173486B3005C08F9 /* Debug */,
+				CA257D94173486B3005C08F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA257D95173486B3005C08F9 /* Build configuration list for PBXNativeTarget "BluetoothBaseStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA257D96173486B3005C08F9 /* Debug */,
+				CA257D97173486B3005C08F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA257D70173486B3005C08F9 /* Project object */;
+}
